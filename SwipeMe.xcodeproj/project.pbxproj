@@ -13,6 +13,8 @@
 		1ED0616C1A4797CB0052C127 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ED0616B1A4797CB0052C127 /* Images.xcassets */; };
 		1ED0616F1A4797CB0052C127 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ED0616D1A4797CB0052C127 /* LaunchScreen.xib */; };
 		1ED0617B1A4797CB0052C127 /* SwipeMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED0617A1A4797CB0052C127 /* SwipeMeTests.swift */; };
+		1ED061861A4798470052C127 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED061841A4798470052C127 /* CardView.swift */; };
+		1ED061871A4798470052C127 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ED061851A4798470052C127 /* CardView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		1ED061741A4797CB0052C127 /* SwipeMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ED061791A4797CB0052C127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1ED0617A1A4797CB0052C127 /* SwipeMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeMeTests.swift; sourceTree = "<group>"; };
+		1ED061841A4798470052C127 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		1ED061851A4798470052C127 /* CardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				1ED061641A4797CB0052C127 /* AppDelegate.swift */,
 				1ED061661A4797CB0052C127 /* ViewController.swift */,
 				1ED061681A4797CB0052C127 /* Main.storyboard */,
+				1ED061841A4798470052C127 /* CardView.swift */,
+				1ED061851A4798470052C127 /* CardView.xib */,
 				1ED0616B1A4797CB0052C127 /* Images.xcassets */,
 				1ED0616D1A4797CB0052C127 /* LaunchScreen.xib */,
 				1ED061621A4797CB0052C127 /* Supporting Files */,
@@ -194,6 +200,7 @@
 			files = (
 				1ED0616A1A4797CB0052C127 /* Main.storyboard in Resources */,
 				1ED0616F1A4797CB0052C127 /* LaunchScreen.xib in Resources */,
+				1ED061871A4798470052C127 /* CardView.xib in Resources */,
 				1ED0616C1A4797CB0052C127 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1ED061671A4797CB0052C127 /* ViewController.swift in Sources */,
+				1ED061861A4798470052C127 /* CardView.swift in Sources */,
 				1ED061651A4797CB0052C127 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
